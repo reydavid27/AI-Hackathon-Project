@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Funny Faces</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+        <script src="javascripts/jquery-3.0.0.min.js"></script>
+        <script src="javascripts/webJS.js"></script>
+    </head>
+
+    <body>
+        <div class="one">
+            <!--<img src="evil_robot.png" id="robotimg" height="100" width="100">-->
+            <video class="video-background" no-controls autoplay loop src="Love-Coding.mp4">   </video>
+                <h1 id="welcome">Welcome to Our App</h1>
+                <p id="welcome_p">Upload a funny face to be judged by your Robot Overlords</p>
+        </div>
+        <div class ="two">
+            <div class = "col-sm-12">
+                <div class = "col-sm-6">
+                    <img src="evil_robot.jpg" id="robotimg" height = "300px" width = "250px">
+                </div>
+
+                <div class = "col-sm-6">
+                    <p>Here is the deal.  Take a photo of yourself making a funny face.</p>
+                    <p>If the Robot Overlords find it funny, they will let you live.</p>
+                    <p>But if they don't, face the consequences.</p>
+                    <form action="demo_form.asp" id="imgform">
+                        <input type="file" name="pic" accept="image/*">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
